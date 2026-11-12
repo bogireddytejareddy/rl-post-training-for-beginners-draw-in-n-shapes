@@ -1,0 +1,11 @@
+# PyTorch build for CUDA 12.8 (the default PyPI build needed a newer GPU driver than ours: 535 / CUDA 12.2)
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+transformers==5.22.2
+peft==0.21.2
+huggingface_hub==2.4.0
+Jinja2==3.1.6
+CairoSVG==2.9.1
+pillow==13.0.0
+numpy==2.4.6
+matplotlib>=3.8

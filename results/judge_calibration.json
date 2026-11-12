@@ -1,0 +1,113 @@
+{
+ "note": "Blind identification among 331 objects. Chance: top-1 0.3%, top-5 1.5%.",
+ "local_judges_660": {
+  "clip": {
+   "human sketches": [
+    0.336,
+    0.542
+   ],
+   "baseline drawings": [
+    0.008,
+    0.034
+   ],
+   "random drawings": [
+    0.0,
+    0.01
+   ],
+   "blank canvas guesses": [
+    "hockey stick",
+    "aircraft carrier",
+    "clarinet",
+    "snowflake",
+    "sailboat"
+   ]
+  },
+  "siglip2": {
+   "human sketches": [
+    0.432,
+    0.636
+   ],
+   "baseline drawings": [
+    0.021,
+    0.081
+   ],
+   "random drawings": [
+    0.007,
+    0.047
+   ],
+   "blank canvas guesses": [
+    "cloud",
+    "envelope",
+    "shoe",
+    "flip flops",
+    "feather"
+   ]
+  }
+ },
+ "all_judges_same_198_sketches_top1_top5": {
+  "siglip2": [
+   0.429,
+   0.646
+  ],
+  "clip": [
+   0.354,
+   0.54
+  ],
+  "gpt-5-mini": [
+   0.313,
+   0.48
+  ],
+  "gpt-4o": [
+   0.111,
+   0.207
+  ]
+ },
+ "gpt_answer_format_ablation_66_sketches_top1": {
+  "gpt-4o": {
+   "forced list": 0.061,
+   "list, free answer": 0.03,
+   "open answer": 0.076
+  },
+  "gpt-5-mini": {
+   "forced list": 0.273,
+   "list, free answer": 0.242,
+   "open answer": 0.258
+  },
+  "served_by": {
+   "gpt-4o": "gpt-4o-2024-11-20",
+   "gpt-5-mini": "gpt-5-mini-2025-08-07"
+  }
+ },
+ "human_sketch_ceiling_by_strokes_top1": {
+  "strokes": [
+   "1-3",
+   "4-6",
+   "7-12",
+   "13+"
+  ],
+  "n": [
+   253,
+   204,
+   164,
+   39
+  ],
+  "clip": [
+   0.237,
+   0.333,
+   0.482,
+   0.385
+  ],
+  "siglip2": [
+   0.368,
+   0.451,
+   0.5,
+   0.462
+  ]
+ },
+ "training_targets_siglip2_top1": {
+  "N=3": 0.46,
+  "N=6": 0.42,
+  "N=12": 0.42
+ },
+ "your_blind_test": "0 of 20 baseline drawings recognised by a human"
+}

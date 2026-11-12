@@ -1,0 +1,46 @@
+{
+ "category_swap_loss": {
+  "base model": {
+   "seen objects": [
+    1.9704,
+    1.9749
+   ],
+   "unseen objects": [
+    1.9457,
+    1.9466
+   ]
+  },
+  "SFT v2a": {
+   "seen objects": [
+    0.7191,
+    0.7498
+   ],
+   "unseen objects": [
+    0.742,
+    0.7556
+   ]
+  },
+  "note": "dev loss with the correct object name vs a wrong one; [correct, wrong]"
+ },
+ "near_duplicate_strokes": {
+  "SFT v2a outputs, unseen": 0.185,
+  "SFT v2a outputs, seen": 0.198,
+  "training targets": 0.011
+ },
+ "rl_one_step_direction_test": {
+  "lr": 0.0001,
+  "positive_advantage_logprob_change": 5.189,
+  "negative_advantage_logprob_change": -3.333,
+  "correlation": 0.82
+ },
+ "reward_sanity": {
+  "human sketches": 0.366,
+  "SFT 1000/object": 0.231,
+  "baseline": 0.011,
+  "random": 0.002
+ },
+ "tokens": {
+  "digits_are_single_tokens": "16.3 -> ['1','6','.','3']",
+  "svg_dataset_median_tokens": 1100
+ }
+}

@@ -1,0 +1,5 @@
+models/
+data/
+runs/
+__pycache__/
+*.pyc

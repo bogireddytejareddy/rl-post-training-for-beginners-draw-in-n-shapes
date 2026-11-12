@@ -1,0 +1,287 @@
+{
+ "v1": {
+  "per_budget": 3083,
+  "pool_sizes": {
+   "3": 3083,
+   "6": 6018,
+   "12": 9944
+  },
+  "dropped": {
+   "too_many_strokes": 770,
+   "over_token_cap": 84,
+   "gate": 1
+  },
+  "chosen_per_budget": {
+   "3": 3083,
+   "6": 3083,
+   "12": 3083
+  },
+  "total": 9249,
+  "per_budget_detail": {
+   "3": {
+    "examples": 3083,
+    "strokes": {
+     "n": 3083,
+     "mean": 2.0,
+     "p10": 1.0,
+     "p50": 2.0,
+     "p90": 3.0,
+     "p99": 3.0,
+     "max": 3
+    },
+    "tokens": {
+     "n": 3083,
+     "mean": 249.3,
+     "p10": 160.0,
+     "p50": 235.0,
+     "p90": 347.0,
+     "p99": 573.3599999999997,
+     "max": 890
+    },
+    "share_under_budget": 0.67,
+    "categories": 192,
+    "per_category_min_median_max": [
+     1,
+     15.0,
+     40
+    ]
+   },
+   "6": {
+    "examples": 3083,
+    "strokes": {
+     "n": 3083,
+     "mean": 3.5,
+     "p10": 1.0,
+     "p50": 4.0,
+     "p90": 6.0,
+     "p99": 6.0,
+     "max": 6
+    },
+    "tokens": {
+     "n": 3083,
+     "mean": 297.7,
+     "p10": 183.0,
+     "p50": 282.0,
+     "p90": 422.8000000000002,
+     "p99": 650.5399999999995,
+     "max": 885
+    },
+    "share_under_budget": 0.857,
+    "categories": 199,
+    "per_category_min_median_max": [
+     2,
+     16,
+     16
+    ]
+   },
+   "12": {
+    "examples": 3083,
+    "strokes": {
+     "n": 3083,
+     "mean": 5.1,
+     "p10": 1.0,
+     "p50": 5.0,
+     "p90": 9.0,
+     "p99": 12.0,
+     "max": 12
+    },
+    "tokens": {
+     "n": 3083,
+     "mean": 334.9,
+     "p10": 192.0,
+     "p50": 320.0,
+     "p90": 499.0,
+     "p99": 703.1799999999998,
+     "max": 884
+    },
+    "share_under_budget": 0.982,
+    "categories": 199,
+    "per_category_min_median_max": [
+     15,
+     15,
+     16
+    ]
+   }
+  }
+ },
+ "v2a": {
+  "examples": {
+   "per_budget": 3046,
+   "pool_sizes": {
+    "3": 3046,
+    "6": 6130,
+    "12": 9945
+   },
+   "dropped": {
+    "too_many_strokes": 770,
+    "over_token_cap": 8,
+    "gate": 1
+   },
+   "chosen_per_budget": {
+    "3": 3046,
+    "12": 3046,
+    "6": 3046
+   },
+   "total": 9138,
+   "tokens": {
+    "n": 9138,
+    "mean": 215.4,
+    "p10": 133.70000000000005,
+    "p50": 200.0,
+    "p90": 315.0,
+    "p99": 471.8899999999976,
+    "max": 888
+   }
+  },
+  "dev_valcats": {
+   "per_budget": 89,
+   "pool_sizes": {
+    "3": 89,
+    "6": 179,
+    "12": 353
+   },
+   "dropped": {
+    "too_many_strokes": 39
+   },
+   "chosen_per_budget": {
+    "3": 89,
+    "12": 89,
+    "6": 89
+   },
+   "total": 267,
+   "tokens": {
+    "n": 267,
+    "mean": 223.1,
+    "p10": 134.4,
+    "p50": 203.0,
+    "p90": 322.0,
+    "p99": 559.0199999999986,
+    "max": 621
+   }
+  }
+ },
+ "v2b": {
+  "examples": {
+   "per_budget": 2868,
+   "pool_sizes": {
+    "3": 2868,
+    "6": 5815,
+    "12": 9600
+   },
+   "dropped": {
+    "over_max_points": 836,
+    "too_many_strokes": 770,
+    "over_token_cap": 10,
+    "gate": 1
+   },
+   "chosen_per_budget": {
+    "6": 2868,
+    "12": 2868,
+    "3": 2868
+   },
+   "total": 8604,
+   "tokens": {
+    "n": 8604,
+    "mean": 285.8,
+    "p10": 174.0,
+    "p50": 268.0,
+    "p90": 420.0,
+    "p99": 603.909999999998,
+    "max": 873
+   }
+  },
+  "dev_valcats": {
+   "per_budget": 81,
+   "pool_sizes": {
+    "3": 81,
+    "6": 186,
+    "12": 313
+   },
+   "dropped": {
+    "too_many_strokes": 39,
+    "over_max_points": 41
+   },
+   "chosen_per_budget": {
+    "3": 81,
+    "6": 81,
+    "12": 81
+   },
+   "total": 243,
+   "tokens": {
+    "n": 243,
+    "mean": 291.7,
+    "p10": 171.0,
+    "p50": 268.0,
+    "p90": 453.2000000000001,
+    "p99": 632.0199999999998,
+    "max": 717
+   }
+  }
+ },
+ "v3_300": {
+  "per_budget": 8963,
+  "pool_sizes": {
+   "3": 8963,
+   "6": 18343,
+   "12": 29966
+  },
+  "dropped": {
+   "too_many_strokes": 2399,
+   "over_token_cap": 27,
+   "gate": 2
+  },
+  "chosen_per_budget": {
+   "6": 8963,
+   "3": 8963,
+   "12": 8963
+  },
+  "total": 26889,
+  "tokens": {
+   "n": 26889,
+   "mean": 215.5,
+   "p10": 136.0,
+   "p50": 200.0,
+   "p90": 315.0,
+   "p99": 470.0,
+   "max": 897
+  },
+  "examples_per_category_min_median_max": [
+   63,
+   134,
+   195
+  ]
+ },
+ "v3_1000": {
+  "per_budget": 30098,
+  "pool_sizes": {
+   "3": 30098,
+   "6": 60746,
+   "12": 99948
+  },
+  "dropped": {
+   "too_many_strokes": 8089,
+   "over_token_cap": 101,
+   "gate": 18
+  },
+  "chosen_per_budget": {
+   "12": 30098,
+   "3": 30098,
+   "6": 30098
+  },
+  "total": 90294,
+  "tokens": {
+   "n": 90294,
+   "mean": 215.8,
+   "p10": 136.0,
+   "p50": 200.0,
+   "p90": 316.0,
+   "p99": 474.0,
+   "max": 899
+  },
+  "examples_per_category_min_median_max": [
+   201,
+   453,
+   621
+  ]
+ }
+}

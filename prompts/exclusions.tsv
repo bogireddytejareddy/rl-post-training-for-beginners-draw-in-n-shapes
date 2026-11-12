@@ -1,0 +1,14 @@
+circle	trivial: one shape is a perfect answer
+square	trivial: one shape is a perfect answer
+triangle	trivial: one shape is a perfect answer
+line	trivial: one shape is a perfect answer
+hexagon	trivial: one shape is a perfect answer
+octagon	trivial: one shape is a perfect answer
+diamond	trivial: one shape is a perfect answer
+zigzag	trivial: one shape is a perfect answer
+squiggle	trivial: one shape is a perfect answer
+animal migration	abstract: no single drawable subject
+camouflage	abstract: no single drawable subject
+The Eiffel Tower	landmark: tests recall of a specific monument, not everyday objects
+The Great Wall of China	landmark: tests recall of a specific monument, not everyday objects
+The Mona Lisa	artwork: tests recall of a specific painting, not everyday objects
