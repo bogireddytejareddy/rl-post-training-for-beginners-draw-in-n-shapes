@@ -224,24 +224,3 @@ python scripts/08_make_figures.py                 # every chart, from results/
 
 `prompts/splits.json` is included, so `scripts/02_make_splits.py` is only needed to recreate it. Every script writes to its own `runs/<timestamp>_<name>/` folder, with its settings, git commit, GPU and package versions.
 
-## What's in the repo
-
-```
-svgbudget/            the library: plain functions, one topic per file
-  prompts.py          the prompt and the train/val/test split
-  gate.py             layer 1: the rules
-  judges.py           layer 2: blind identification, and the RL reward
-  render.py           SVG -> image, image grids
-  sketches.py         human sketches -> SFT examples
-  model.py            loading Qwen and sampling drawings
-  evaluate.py         the evaluation pipeline
-  sft.py              SFT with LoRA
-  rl.py               RL: rollouts, advantages, loss, training loop, monitors
-  download.py, runlog.py, stats.py
-scripts/              numbered steps, run in order
-results/              every number in this README: evaluation summaries, training logs, judge calibration
-figures/              every image in this README
-prompts/              categories, exclusions, splits
-```
-
-Sketch data: Quick, Draw! by Google Creative Lab, released under CC BY 4.0.
